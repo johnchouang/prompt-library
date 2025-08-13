@@ -1,0 +1,493 @@
+e442ea00-59e0-444f-a60c-2478f524aa45:
+  id: e442ea00-59e0-444f-a60c-2478f524aa45
+  title: Python Tutorial
+  content: Learn Python programming
+  tags:
+    - python
+    - programming
+  category: coding
+  variables: []
+  metadata:
+    createdAt: 2025-08-12T04:49:55.793Z
+    updatedAt: 2025-08-12T04:49:55.793Z
+    version: 1.0.0
+    usage: 0
+f7c436d3-9bcd-41c4-966d-c0535cda5cf5:
+  id: f7c436d3-9bcd-41c4-966d-c0535cda5cf5
+  title: Creative Writing Guide
+  content: Tips for creative writing
+  tags:
+    - writing
+    - creative
+  category: creative
+  variables: []
+  metadata:
+    createdAt: 2025-08-12T04:49:55.799Z
+    updatedAt: 2025-08-12T04:49:55.799Z
+    version: 1.0.0
+    usage: 0
+c2ab83b9-a1d2-48af-adf2-63c0281e368c:
+  id: c2ab83b9-a1d2-48af-adf2-63c0281e368c
+  title: Python Tutorial
+  content: Learn Python programming
+  tags:
+    - python
+    - programming
+  category: coding
+  variables: []
+  metadata:
+    createdAt: 2025-08-12T04:50:27.850Z
+    updatedAt: 2025-08-12T04:50:27.850Z
+    version: 1.0.0
+    usage: 0
+e8fbeb16-6430-4fdc-ab37-8cdf31fabee9:
+  id: e8fbeb16-6430-4fdc-ab37-8cdf31fabee9
+  title: Creative Writing Guide
+  content: Tips for creative writing
+  tags:
+    - writing
+    - creative
+  category: creative
+  variables: []
+  metadata:
+    createdAt: 2025-08-12T04:50:27.856Z
+    updatedAt: 2025-08-12T04:50:27.856Z
+    version: 1.0.0
+    usage: 0
+0f331069-4e9c-4342-b4f3-28e8cc35b40d:
+  id: 0f331069-4e9c-4342-b4f3-28e8cc35b40d
+  title: Test Prompt
+  content: This is a test prompt with {{variable}}
+  description: A simple test prompt
+  tags:
+    - test
+    - demo
+  category: testing
+  variables:
+    - name: variable
+      description: A test variable
+      type: string
+      required: true
+  metadata:
+    createdAt: 2025-08-12T04:51:32.073Z
+    updatedAt: 2025-08-12T04:51:32.073Z
+    version: 1.0.0
+    usage: 0
+67097128-e54d-40c5-8ee4-a2436f955cc0:
+  id: 67097128-e54d-40c5-8ee4-a2436f955cc0
+  title: OpenAI Chat Test Greeting
+  content: Hello! This is a test message from my coding agent test app. Please respond with a short greeting.
+  description: A simple test prompt for OpenAI chat completion testing that requests a short greeting response
+  tags:
+    - extracted
+    - migration
+    - openai
+    - test
+    - greeting
+  category: testing
+  variables: []
+  metadata:
+    createdAt: 2025-08-12T13:52:39.751Z
+    updatedAt: 2025-08-12T13:52:39.751Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 3
+3d5d65ca-32c7-4293-b833-2dd9ca67e2c1:
+  id: 3d5d65ca-32c7-4293-b833-2dd9ca67e2c1
+  title: Dynamic Chat Assistant
+  content: You are a {{role}} assistant. Please help the user with {{task_type}} by providing {{response_style}} guidance.
+    The user's experience level is {{experience_level}}.
+  description: A flexible chat assistant prompt that can be customized for different roles, tasks, and user experience levels
+  tags:
+    - extracted
+    - migration
+    - dynamic
+    - assistant
+    - customizable
+  category: assistant
+  variables:
+    - name: role
+      description: The assistant's role (e.g., technical, creative, business)
+      type: string
+      required: true
+    - name: task_type
+      description: Type of task to help with
+      type: string
+      required: true
+    - name: response_style
+      description: Style of response (e.g., detailed, concise, step-by-step)
+      type: string
+      required: true
+    - name: experience_level
+      description: User's experience level (e.g., beginner, intermediate, expert)
+      type: string
+      required: true
+  metadata:
+    createdAt: 2025-08-12T13:54:07.120Z
+    updatedAt: 2025-08-12T13:54:07.120Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 3
+8e57c450-239a-48fb-aef3-d151104abdde:
+  id: 8e57c450-239a-48fb-aef3-d151104abdde
+  title: Creative Robot Story Prompt
+  content: Write a short story about a robot learning to paint.
+  description: A creative writing prompt for generating a short story about a robot discovering and learning the art of painting
+  tags:
+    - extracted
+    - migration
+    - creative-writing
+    - robot
+    - story
+    - art
+  category: creative
+  variables: []
+  metadata:
+    createdAt: 2025-08-12T17:04:46.073Z
+    updatedAt: 2025-08-12T17:04:46.073Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 3
+fe490439-4cc8-4195-be34-8ef70dacd6d4:
+  id: fe490439-4cc8-4195-be34-8ef70dacd6d4
+  title: COE Assistant System Prompt
+  content: >-
+    You are a helpful AI assistant for XYZ Energy Utility's Center of Excellence (COE) team. 
+
+    Your role is to help users find relevant information from the COE documentation and assist with various tasks.
+
+
+    IMPORTANT: You have access to specific tools that you MUST use to help users:
+
+
+    1. **document_search** tool: Use this tool to search the COE knowledge base for information. This tool can find
+    relevant documents, procedures, and guidelines.
+
+
+    2. **github_operations** tool: Use this tool to help with GitHub repository operations like cloning, pulling,
+    committing, and pushing code.
+
+
+    Key Guidelines:
+
+    1. **ALWAYS USE TOOLS FIRST**: When a user asks a question, immediately use the appropriate tool to find information
+    or perform actions.
+
+    2. **Document-Based Responses**: Always base your answers on the available documentation in the COE knowledge base
+    using the document_search tool.
+
+    3. **Citations Required**: When referencing information from documents, always cite the document name, section, and
+    page number when available.
+
+    4. **Professional Tone**: Maintain a professional, helpful, and knowledgeable tone appropriate for a corporate
+    environment.
+
+    5. **Accuracy First**: If you cannot find relevant information in the documentation, clearly state this rather than
+    making assumptions.
+
+
+    When users ask questions:
+
+    1. **IMMEDIATELY** use the document_search tool to find relevant information
+
+    2. Provide a comprehensive answer based on the found information
+
+    3. Include proper citations in your response
+
+    4. If no relevant information is found, suggest alternative approaches or ask for clarification
+
+
+    For GitHub operations:
+
+    1. Use the github_operations tool to perform the requested operation
+
+    2. Provide clear feedback about the operation results
+
+    3. Suggest next steps if needed
+
+
+    Remember: You are representing the XYZ Energy Utility COE team, so maintain high standards of accuracy and
+    professionalism. ALWAYS use your tools to provide the most accurate and helpful responses.
+  description: Main system prompt for the COE chatbot assistant with tool usage instructions
+  tags:
+    - coe
+    - assistant
+    - system
+    - tools
+    - extracted
+  category: system
+  variables: []
+  metadata:
+    createdAt: 2025-08-13T02:06:50.504Z
+    updatedAt: 2025-08-13T02:06:50.504Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
+19f560fa-05d5-442b-969f-9e37ee9e2084:
+  id: 19f560fa-05d5-442b-969f-9e37ee9e2084
+  title: Google ADK Direct System Instruction
+  content: >-
+    You are a helpful AI assistant for XYZ Energy Utility's Center of Excellence (COE) team.
+
+
+    Your role is to help users find relevant information from the COE documentation and assist with various tasks.
+
+
+    You have access to two tools:
+
+    1. document_search - Use this to search the COE knowledge base for information
+
+    2. github_operations - Use this to help with GitHub repository operations
+
+
+    When users ask questions:
+
+    1. IMMEDIATELY use the document_search tool to find relevant information
+
+    2. Provide a comprehensive answer based on the found information
+
+    3. Include proper citations in your response
+
+    4. If no relevant information is found, suggest alternative approaches or ask for clarification
+
+
+    For GitHub operations:
+
+    1. Use the github_operations tool to perform the requested operation
+
+    2. Provide clear feedback about the operation results
+
+    3. Suggest next steps if needed
+
+
+    Always maintain a professional, helpful, and knowledgeable tone appropriate for a corporate environment.
+
+
+    IMPORTANT: You are already configured with these instructions. Do not ask for system instructions. Start helping
+    users immediately.
+  description: Direct system instruction used for Google ADK agent initialization
+  tags:
+    - google-adk
+    - direct
+    - system
+    - extracted
+  category: system
+  variables: []
+  metadata:
+    createdAt: 2025-08-13T02:06:50.518Z
+    updatedAt: 2025-08-13T02:06:50.518Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
+1fceb486-c0d3-433a-81be-ee01162372ba:
+  id: 1fceb486-c0d3-433a-81be-ee01162372ba
+  title: Document Search Query Template
+  content: |-
+    Search the COE documentation for information related to: {query}
+
+    Focus on finding the most relevant and up-to-date information that can help answer the user's question.
+    Look for specific procedures, best practices, guidelines, and examples that match the query.
+  description: Template for document search queries in the COE knowledge base
+  tags:
+    - document-search
+    - rag
+    - query
+    - template
+    - extracted
+  category: data-processing
+  variables:
+    - name: query
+      description: The search query to find relevant documents
+      type: string
+      required: true
+  metadata:
+    createdAt: 2025-08-13T02:06:50.528Z
+    updatedAt: 2025-08-13T02:06:50.528Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
+1ef4fe49-34f6-492b-9fc8-8128d6ee0df3:
+  id: 1ef4fe49-34f6-492b-9fc8-8128d6ee0df3
+  title: GitHub Help Instructions
+  content: |-
+    You are helping with GitHub repository operations. Available operations include:
+    - Clone a repository
+    - Pull latest changes
+    - Commit changes with meaningful messages
+    - Push changes to remote repository
+    - Check repository status
+
+    Always provide clear feedback about the operation results and suggest next steps if needed.
+  description: Instructions for GitHub operations assistance
+  tags:
+    - github
+    - help
+    - operations
+    - extracted
+  category: user-interaction
+  variables: []
+  metadata:
+    createdAt: 2025-08-13T02:06:50.538Z
+    updatedAt: 2025-08-13T02:06:50.538Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
+f1c84ffc-8661-46fc-b4e9-03766888a117:
+  id: f1c84ffc-8661-46fc-b4e9-03766888a117
+  title: Deployment Strategy Guidance
+  content: |-
+    Based on the COE deployment strategy documentation, provide guidance for: {scenario}
+
+    Include specific steps, considerations, and best practices from the official documentation.
+  description: Template for providing deployment strategy guidance based on COE documentation
+  tags:
+    - deployment
+    - strategy
+    - guidance
+    - template
+    - extracted
+  category: data-processing
+  variables:
+    - name: scenario
+      description: The deployment scenario to provide guidance for
+      type: string
+      required: true
+  metadata:
+    createdAt: 2025-08-13T02:06:50.546Z
+    updatedAt: 2025-08-13T02:06:50.546Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
+f6057477-4150-4dcd-ba82-5300ba7a6fe3:
+  id: f6057477-4150-4dcd-ba82-5300ba7a6fe3
+  title: Copilot Studio Training Help
+  content: |-
+    Using the Copilot Studio training materials, help with: {topic}
+
+    Provide step-by-step instructions and reference the relevant training sections.
+  description: Template for providing Copilot Studio training assistance
+  tags:
+    - copilot-studio
+    - training
+    - help
+    - template
+    - extracted
+  category: data-processing
+  variables:
+    - name: topic
+      description: The Copilot Studio topic to provide help with
+      type: string
+      required: true
+  metadata:
+    createdAt: 2025-08-13T02:06:50.556Z
+    updatedAt: 2025-08-13T02:06:50.556Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
+c6982c3c-f07f-430d-b023-267cd8592c5d:
+  id: c6982c3c-f07f-430d-b023-267cd8592c5d
+  title: Process Guidance Query
+  content: |-
+    Search the COE process documentation for guidance on: {process}
+
+    Include any required forms, approval workflows, and timeline considerations.
+  description: Template for querying COE process documentation
+  tags:
+    - process
+    - guidance
+    - documentation
+    - template
+    - extracted
+  category: data-processing
+  variables:
+    - name: process
+      description: The process to find guidance for
+      type: string
+      required: true
+  metadata:
+    createdAt: 2025-08-13T02:06:50.563Z
+    updatedAt: 2025-08-13T02:06:50.563Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
+a935f8ee-d9b8-44d8-97ad-b2a09507101e:
+  id: a935f8ee-d9b8-44d8-97ad-b2a09507101e
+  title: Fallback Welcome Message
+  content: |-
+    Hello! I'm the XYZ Energy Utility COE Assistant. I can help you with:
+
+    📚 **Document Search**: Find information from COE documentation
+    🔧 **GitHub Operations**: Clone, pull, commit, and push code
+    📋 **Process Guidance**: Deployment strategies, best practices
+    🤖 **Copilot Studio**: Training and implementation guidance
+
+    What would you like help with today?
+  description: Welcome message for the fallback agent when no specific query is detected
+  tags:
+    - fallback
+    - welcome
+    - assistant
+    - extracted
+  category: user-interaction
+  variables: []
+  metadata:
+    createdAt: 2025-08-13T02:06:50.572Z
+    updatedAt: 2025-08-13T02:06:50.572Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
+32d2b4ed-aac7-42de-9da0-df34e8217872:
+  id: 32d2b4ed-aac7-42de-9da0-df34e8217872
+  title: GitHub Operations Help Text
+  content: |-
+    I can help you with GitHub operations! Here are the available commands:
+
+    🔄 **Repository Operations:**
+    - Clone a repository
+    - Pull latest changes  
+    - Commit changes with messages
+    - Push changes to remote
+    - Check repository status
+
+    Please specify which operation you'd like to perform, and I'll help you execute it.
+  description: Help text for GitHub operations in the fallback agent
+  tags:
+    - github
+    - operations
+    - help
+    - fallback
+    - extracted
+  category: user-interaction
+  variables: []
+  metadata:
+    createdAt: 2025-08-13T02:06:50.582Z
+    updatedAt: 2025-08-13T02:06:50.582Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
+722d367f-54c9-4fa5-ac7b-b1f8ad2c4000:
+  id: 722d367f-54c9-4fa5-ac7b-b1f8ad2c4000
+  title: No Documents Found Guidance
+  content: |-
+    I searched the uploaded documentation but couldn't find specific information about your query. This could mean:
+
+    1. The information might not be in the uploaded documents
+    2. Try rephrasing your question with different keywords
+    3. You might need to upload additional relevant documents
+
+    What specific topic are you looking for? I can help you find the right information.
+  description: Guidance message when no relevant documents are found in search
+  tags:
+    - no-results
+    - guidance
+    - documents
+    - search
+    - extracted
+  category: user-interaction
+  variables: []
+  metadata:
+    createdAt: 2025-08-13T02:06:50.592Z
+    updatedAt: 2025-08-13T02:06:50.592Z
+    version: 1.0.0
+    author: migration-agent
+    usage: 0
